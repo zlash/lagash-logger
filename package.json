@@ -1,0 +1,36 @@
+{
+  "name": "lagash-logger",
+  "version": "0.1.0",
+  "description": "Lagash winston logger wrapper.",
+  "main": "js/index.js",
+  "typings": "js/index",
+  "files": [
+    "js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zlash/lagash-logger.git"
+  },
+  "keywords": [
+    "typescript",
+    "ts",
+    "winston",
+    "logger",
+    "wrapper",
+    "lagash"
+  ],
+  "author": "Miguel Ángel Pérez Martínez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zlash/lagash-logger/issues"
+  },
+  "homepage": "https://github.com/zlash/lagash-logger#readme",
+  "dependencies": {
+    "@types/winston": "0.0.27",
+    "lagash-config": "^0.1.0",
+    "winston": "^2.2.0"
+  }
+}
